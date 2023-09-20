@@ -4,7 +4,6 @@
 import modularize from "@dashkite/masonry-export"
 
 text = ( context ) ->
-  console.log source: context.source
   do ({ input } = context ) ->
     input = JSON.stringify input
       .replace /\u2028/g, '\\u2028'

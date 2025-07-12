@@ -39,6 +39,6 @@
     "@dashkite/genie-release": "^0.2.3"
   },
   "dependencies": {
-    "@dashkite/masonry-export": "link:../masonry-export"
+    "@dashkite/masonry-export": "0.1.0"
   }
 }

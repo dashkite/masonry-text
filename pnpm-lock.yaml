@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@dashkite/masonry-export':
-        specifier: link:../masonry-export
-        version: link:../masonry-export
+        specifier: 0.1.0
+        version: 0.1.0
     devDependencies:
       '@dashkite/amen':
         specifier: ^0.2.0
@@ -614,6 +614,9 @@ packages:
 
   '@dashkite/masonry-coffee@0.2.0':
     resolution: {integrity: sha512-xJO48SIRpsYbJF32CwpA6yeEJhNh+DtxCucyt4MNJqO0yru9X7hoxZsHneRoUE+kISD0KTO8DLQiHv21nU/V2A==}
+
+  '@dashkite/masonry-export@0.1.0':
+    resolution: {integrity: sha512-K5ILSl4b+8SatTJTO4AJO+QuBR+coXk9gkeAZRtIx7qhuhdJbB1dCq+pqscYGJ81He1lzHP4DiQtEAf8wBHykA==}
 
   '@dashkite/masonry-targets@0.1.0':
     resolution: {integrity: sha512-nb1N+oBZLw04AFUV49ZFLBAb/NQ0fJseO6ACrEfgXkHra2I1oxwHxLIKtMqWcedQa3QP2pqA/eeBmtGiTQGM0Q==}
@@ -2143,6 +2146,8 @@ snapshots:
       coffeescript: 2.7.0
     transitivePeerDependencies:
       - '@swc/helpers'
+
+  '@dashkite/masonry-export@0.1.0': {}
 
   '@dashkite/masonry-targets@0.1.0':
     dependencies:
